@@ -80,6 +80,8 @@ b2 version                Print the version number of this tool.
 The environment variable `B2_ACCOUNT_INFO` specifies the SQLite
 file to use for caching authentication information.
 The default file to use is: `~/.b2_account_info`.
+The optional environment variable `B2_ENVIRONMENT` selects the authorization realm; leave it
+unset for production, or set it to a known realm name or a custom API endpoint URL.
 
 To get more details on a specific command use `b2 <command> --help`.
 
