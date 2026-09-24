@@ -1273,10 +1273,6 @@ class B2(Command):
 
     A string provided via an optional environment variable ``{B2_USER_AGENT_APPEND_ENV_VAR}``
     will be appended to the User-Agent.
-
-    The optional environment variable ``{B2_ENVIRONMENT_ENV_VAR}`` selects the authorization
-    realm. Leave it unset for production, or set it to a known realm name or a custom API
-    endpoint URL.
     """
 
     REQUIRES_AUTH = False
